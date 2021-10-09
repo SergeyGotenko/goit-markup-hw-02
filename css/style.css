@@ -144,6 +144,7 @@ color: var(--primery-text-color);
 
 
 .filter-btn{
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -152,8 +153,8 @@ color: var(--primery-text-color);
     color: var(--primery-text-color);
     background-color:  #F5F4FA ;
 }
-.filter-btn :hover,
-.filter-btn :focus{
+.filter-btn:hover,
+.filter-btn:focus{
     color: var(--primery-title-color);
     background-color: var(--accent-color);   
 }
