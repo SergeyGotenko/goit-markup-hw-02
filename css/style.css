@@ -56,6 +56,10 @@ body{
 }
 
 /*header*/
+.nav .nav-item .nav-link:active{
+    color: red;
+}
+
 .nav-link{
 font-weight: 500;
 font-size: 14px;
@@ -68,9 +72,10 @@ color: var(--primery-text-color);
 .nav-link:focus{
     color: var(--accent-color)
 }
-.current{
-    color: var(--accent-color);
+.site-nav .nav-link.current{
+    color:var(--accent-color)
 }
+
 
 
 
